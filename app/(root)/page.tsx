@@ -1,3 +1,4 @@
+<<<<<<< HEAD
 import Link from "next/link";
 import Image from "next/image";
 
@@ -92,3 +93,14 @@ async function Home() {
 }
 
 export default Home;
+=======
+import React from 'react'
+
+const Page = ()=> {
+  return(
+    <div>Home Page</div>
+  )
+}
+
+export default Page
+>>>>>>> 39684c2 (setup app, file and folder structure, routing and auth page)
