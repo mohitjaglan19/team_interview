@@ -6,11 +6,7 @@ import { useRouter } from "next/navigation";
 
 import { cn } from "@/lib/utils";
 import { vapi } from "@/lib/vapi.sdk";
-<<<<<<< HEAD
 import { interviewer } from "@/constants/index";
-=======
-import { interviewer } from "@/constants";
->>>>>>> 39684c2 (setup app, file and folder structure, routing and auth page)
 import { createFeedback } from "@/lib/actions/general.action";
 
 enum CallStatus {
